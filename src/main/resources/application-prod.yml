@@ -1,0 +1,6 @@
+swagger:
+  enable: false
+
+logback:
+  level: INFO
+  log_path: /home/wankai/SpringBootDemo/log/

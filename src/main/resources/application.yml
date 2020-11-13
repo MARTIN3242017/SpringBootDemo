@@ -1,0 +1,17 @@
+server:
+  port: 8993
+  servlet:
+    context-path: /SpringBootDemo
+
+spring:
+  application:
+    name: SpringBootDemo
+  profiles:
+    active: dev
+  aop:
+    auto: true
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java #指定热部署的目录
+      exclude: test/**
